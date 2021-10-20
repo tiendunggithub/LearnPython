@@ -7,9 +7,8 @@ while True:
   options=menu.keys()
   options.sort()
 
-    for entry in options: 
-        
-      print (entry, menu[entry])
+for entry in options: 
+    print (entry, menu[entry])
 
     selection=raw_input("Please Select:") 
     if selection =='1': 
